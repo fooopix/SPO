@@ -15,7 +15,7 @@ class Lexeme {
         this.type = type;
         this.pattern = Pattern.compile(reg_value);
     }
-
+//jopa
     @Override
     public String toString() {
         return (type + "  @  " + pattern);
